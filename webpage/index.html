@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home price data visualization</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<header id="header">
+			<h1>Home and rental price market analysis</h1>
+		</header>
+
+		<article>
+
+		  <h2>Introduction</h2>
+		  <p>
+		  	Experts believe the U.S. housing market is hot. Well not necessarily in a good way for everyone - rising home values and rental prices may mean less affordability for the general population. Shiller home price index shows a relentless rise. Where does it stop, is the question many are asking.</p>
+		  	<p align="center"><iframe src='https://d3fy651gv2fhd3.cloudfront.net/embed/?s=unitedstacasshihompr&v=201807311336v&d1=19180101&d2=20181231&h=300&w=600' height='300' width='600'  frameborder='0' scrolling='no'></iframe></p>
+		  	
+		  <p>
+		  	Booming housing market nevertheless, offers plenty of opportunities for investors. A data driven approach would enable them to figure out the best places to invest in, based on various factors they might want to consider. Our team collected some housing market data from Zillow and created some visualizations with the goal of enabling these investors make an objective decision.
+		  </p>
+
+		  <h2>Audience</h2>
+		  <p>
+		  	The intended audience for our visualizations primarily include capital investors and individuals, who are looking into buying real estate for investment purposes. We have also catered to people who might be considering renting vs buying for their own dwelling.
+		  </p>
+
+		  <h2>Data</h2>
+		  <p>
+		  	Our primary source of data has been <a href="https://www.zillow.com/research/data/" target="_blank">Zillow</a>. The data is organized into geographic levels of state, metro, county, zipcode and neighborhood. For each geographic cut, we have several (80+) csv files, each keeping information on a specific measure for e.g. median listing price, median rental price, inventory measure, days on Zillow, etc.
+		  	This dataset from Zillow does not provide information on population measures, and since population dynamics influences the demand and inventory levels significantly, we augmented our data with population measures (<a href="https://www.census.gov/data/tables/2017/demo/popest/nation-total.html" target="_blank">US census</a>) also.
+		  </p>
+
+		  <h2>Tasks</h2>
+		  <p>
+		  	.
+		  	.
+		  	.
+		  </p>
+
+
+		  <!-- <div class="container-fluid"> -->
+		  	<h1>Vizualizations</h1>
+		  	<p>The big picture - how are the home values appreciating across the country </p>
+		  		<div class='tableauPlaceholder' id='viz1533518682127' style='position: relative'><noscript><a href='#'><img alt='Zillow Home Value YoY change (% difference from same period last year) ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ZH&#47;ZHVIYoy&#47;ZHVIYoyDashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ZHVIYoy&#47;ZHVIYoyDashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ZH&#47;ZHVIYoy&#47;ZHVIYoyDashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1533518682127');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+		  		<hr>
+
+		  		<p>How are the rental prices increasing across the country. And how does population growth affect that. </p>
+		  		<div class='tableauPlaceholder' id='viz1533509942789' style='position: relative'><noscript><a href='#'><img alt='Impact of population growth on rental yields ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Po&#47;PopulationandRentalGrowths&#47;Dashboard8&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='PopulationandRentalGrowths&#47;Dashboard8' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Po&#47;PopulationandRentalGrowths&#47;Dashboard8&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1533509942789');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='827px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+
+
+
+		  		<div class='tableauPlaceholder' id='viz1533510723400' style='position: relative'><noscript><a href='#'><img alt='ZHVI forecast for next year ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ZH&#47;ZHVIForecast_0&#47;Forecastfornextyear&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ZHVIForecast_0&#47;Forecastfornextyear' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ZH&#47;ZHVIForecast_0&#47;Forecastfornextyear&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1533510723400');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1100px';vizElement.style.height='1027px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1100px';vizElement.style.height='1027px';} else { vizElement.style.width='1100px';vizElement.style.height='1027px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+		  		<hr>
+
+		  		<div class='tableauPlaceholder' id='viz1533650973459' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Br&#47;Breakeven_12&#47;Breakeven&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Breakeven_12&#47;Breakeven' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Br&#47;Breakeven_12&#47;Breakeven&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1533650973459');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1024px';vizElement.style.height='818px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+		  		<div class='tableauPlaceholder' id='viz1533510924614' style='position: relative'><noscript><a href='#'><img alt='Affordability ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Af&#47;Affordability_8&#47;Affordability&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Affordability_8&#47;Affordability' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Af&#47;Affordability_8&#47;Affordability&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1533510924614');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1024px';vizElement.style.height='795px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1024px';vizElement.style.height='795px';} else { vizElement.style.width='1024px';vizElement.style.height='795px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+
+		  		
+
+
+		  		<div class='tableauPlaceholder' id='viz1533511441527' style='position: relative'><noscript><a href='#'><img alt='Hottest and coolest months ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ho&#47;HottestandCoolestmonths&#47;Hottestandcoolestmonths&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='HottestandCoolestmonths&#47;Hottestandcoolestmonths' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ho&#47;HottestandCoolestmonths&#47;Hottestandcoolestmonths&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1533511441527');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='827px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+
+		  		<div class='tableauPlaceholder' id='viz1533518201373' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;44&#47;44RRYG5S4&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;44RRYG5S4' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;44&#47;44RRYG5S4&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1533518201373');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='850px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+		  		
+		  	</p>
+		  	<p>
+		  	</p>
+
+		  	<h1></h1>
+		  	<div id="PlotSelections">
+		  		
+		  	</div>
+		<!-- </div> -->
+
+		  <h1>Insights</h1>
+		  <p>
+		  	
+		  </p>
+
+		  <p>
+		  	
+		  </p>
+		  <p>
+		  	
+		  </p>
+
+		</article>
+
+		<footer>Copyright &copy; chandangope@berkeley.edu</footer>
+	</div>
+</body>
+</html>

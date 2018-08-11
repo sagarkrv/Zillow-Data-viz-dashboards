@@ -1,0 +1,48 @@
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+#header h1 {
+	font: 24px sans-serif;
+
+}
+
+article {
+    text-align: left;
+    padding: 1em;
+}
+
+.chart {
+	alignment-baseline: center
+}
+.chart rect.barRect {
+  fill: steelblue;
+}
+
+.chart text.value {
+  fill: white;
+  font: 12px sans-serif;
+  text-anchor: end;
+}
+
+.chart text.label {
+  font: 12px sans-serif;
+  fill: black;
+}
+
+.barChart .bar {
+  fill: steelblue;
+}
+
+#days{
+  fill: brown;
+}
