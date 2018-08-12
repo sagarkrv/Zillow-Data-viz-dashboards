@@ -13,36 +13,22 @@ header, footer {
 
 #header h1 {
 	font: 24px sans-serif;
+}
+
+.viz{
+  margin: auto;
+  text-align: center;
+  font: 30px sans-serif;
+  color: #566573;
+  border-radius: 10px;
+  background: #F2F3F4;
+  padding: 20px; 
+  width: 1200px;
+  height: 50px; 
 
 }
 
 article {
     text-align: left;
     padding: 1em;
-}
-
-.chart {
-	alignment-baseline: center
-}
-.chart rect.barRect {
-  fill: steelblue;
-}
-
-.chart text.value {
-  fill: white;
-  font: 12px sans-serif;
-  text-anchor: end;
-}
-
-.chart text.label {
-  font: 12px sans-serif;
-  fill: black;
-}
-
-.barChart .bar {
-  fill: steelblue;
-}
-
-#days{
-  fill: brown;
 }
